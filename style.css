@@ -1,0 +1,492 @@
+
+  
+@media screen and (min-width: 1024px) {
+
+body {
+    font-family: Arial, sans-serif, ;
+    margin: 0;
+    padding: 0;
+}
+
+  
+header {
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: start;
+    padding-left: 40px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+  
+nav {
+    display: flex;   
+    align-items: center;   
+}
+
+nav ul {
+    list-style: none;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 745px;
+}
+
+nav ul li {
+    display: inline-block;   
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #080808;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav img.icon {
+    margin-left: 30px;   
+}
+
+.content {
+    display: flex;   
+}
+
+.container1 {
+    flex: 1;   
+}
+
+.container1 img,
+.container1 ul {
+    width: 100%;   
+    height: auto;
+    margin-right: 0%;
+}
+
+ style.css 
+
+ul {
+    list-style-type: none;   
+}
+
+.container2 {
+    flex: 1;   
+    height: auto;
+}
+
+.container2 img,
+.container2 ul {
+    width: 100%;   
+    padding-left: 7px;
+    height: 362px;
+    margin: 0%;
+    padding-bottom: 7px;
+    
+}
+
+.scroll h2 {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.scroll h4 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.bg {
+    background-size: cover;   
+    background-position: center;
+    background-color: #D4E8E2;
+    
+}   
+
+.container4 p {
+    color: #000000;
+    text-align:justify;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+.container3 img{
+    width: 570px;
+    height: 350px;
+    align-self: center;
+    margin: 50px;
+}
+
+.bg {
+    display: flex;   
+}
+
+.onlinestore h3{
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 40px;
+
+}
+
+.slider-group{
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.slider-card {
+    flex: 0 0 auto;
+    max-width: 150px;
+    height: 100%;
+    margin-right: 20px;
+    display: flex; 
+}
+
+.slider-card-img {
+    width: auto;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-right: 20px; 
+    margin-left: 20px;
+}
+
+.slider-group::-webkit-scrollbar {
+    display: none;
+}
+
+ リンクの下線を削除 
+a {
+    text-decoration: none;
+}
+
+ ホバー時のスタイル変更 
+a:hover img {
+    opacity: 0.8;
+}
+
+.column1 img {
+    width: 400px;
+    height: 400px;
+    flex: 1;
+    margin: 0 10px;
+    margin-top: 20px;
+}
+
+.column1 {
+    display: flex; 
+    justify-content: center;
+}
+
+.column2 img {
+    width: 400px;
+    height: 400px;
+    flex: 1;
+    margin: 0 10px;
+    margin-top: 20px;
+}
+
+.column2 {
+    display: flex; 
+    justify-content: center;
+}
+
+.column3 img {
+    width: 400px;
+    height: 400px;
+    flex: 1;
+    margin: 0 10px;
+    margin-top: 20px;
+}
+
+.column3 {
+    display: flex; 
+    justify-content: center;
+}
+
+.column4 img {
+    width: 400px;
+    height: 400px;
+    flex: 1;
+    margin: 0 10px;
+    margin-top: 20px;
+    margin-left: 115px;
+}
+
+.column4 {
+    display: flex; 
+    margin-bottom: 30px;
+}
+
+.body {
+    background-color: #2c4c36;
+}
+
+
+.product-page {
+    display: flex;   
+}
+
+.productpic {
+    flex: 1;   
+    margin-right: 20px;   
+    margin: 100px;
+}
+
+.product-desc {
+    flex: 1;   
+    margin-top: 120px;
+    margin-right: 60px;
+    color: #ffffff;
+}
+
+.price {
+    margin-top: 85px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.select {
+    width: 70px;
+    height: 40px;
+    margin-left: 170px;
+    background-color: #2c4c36;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.add button {
+    padding: 10px 20px;   
+    border: none;   
+    border-radius: 30px;   
+    background-color: #0D9C5D;   
+    color: #ffffff;   
+    font-size: 25px;   
+    cursor: pointer;   
+    transition: background-color 0.3s;   
+    margin-left: 60px;
+}
+
+.onlinestore {
+    border-bottom: 3px solid #e4e4e4; 
+}
+
+footer ul li {
+    margin-top: 50px;
+    margin-bottom: 35px;   
+}
+
+footer ul li:last-child {
+    margin-bottom: 30px;   
+}
+
+
+footer ul li a {
+    letter-spacing: 2px;   
+    color: #000000;
+}
+
+footer {
+    border-bottom: 3px solid #e4e4e4; 
+}
+
+.acad {
+    text-align: center;
+}
+
+.products {
+    border-bottom: 3px solid #e4e4e4; 
+}
+
+.about h1{
+    margin-left: 70px;
+    margin-top: 80px;
+    color: #ffffff;
+}
+
+.about img{
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+.about h3{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.about p{
+    margin-top: 30px;
+    margin-left: 260px;
+    margin-right: 260px;
+    text-align: center;
+    color: #ffffff;
+    
+}
+}
+
+@media screen and (max-width: 767px) {
+    body {
+      font-size: 16px;   
+      color: #000000;
+    }
+  
+    header {
+      padding: 15px 0;   
+      text-align: center;   
+      padding-left: 0;   
+      color: #000000;
+
+    }
+  
+    nav ul {
+      padding-left: 0;   
+      padding-right: 0;   
+      color: #000000;
+
+    }
+  
+    nav ul li {
+      display: block;   
+      margin: 10px 0;   
+      text-align: center;   
+      color: #000000;
+    }
+  
+    nav img.icon {
+      margin-left: 15px;   
+    }
+  
+    .scroll h2{
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    .scroll h4{
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+
+    .container4 {
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }
+
+    .container1 img,
+    .container2 img,
+    .container3 img,
+    .container4 img,
+    .column1 img,
+    .column2 img,
+    .column3 img,
+    .column4 img,
+    .about img {
+      width: 100%;   
+      height: auto;   
+      margin: 0;   
+    }
+  
+    .container1 ul,
+    .container2 ul {
+      padding: 0;   
+    }
+  
+    .container4 p {
+      margin-left: 10px;   
+      margin-right: 10px;   
+      margin-top: 30px;   
+    }
+  
+    .product-desc {
+      margin-top: 30px;   
+      margin-right: 0;   
+    }
+  
+    .select {
+      width: 100px;   
+      margin-left: 10px;   
+    }
+  
+    .add button {
+      margin-left: 0;   
+    }
+  
+    .about h1 {
+      margin-left: 0;   
+      margin-top: 30px;   
+      text-align: center;   
+    }
+  
+    .about h3 {
+      margin-top: 20px;   
+      margin-left: 10px;  
+      margin-right: 10px;  
+      text-align: center;  
+    }
+  
+    .about p {
+      margin-top: 20px;
+      margin-left: 10px; 
+      margin-right: 10px; 
+      text-align: center; 
+    }
+
+    .slider-group{
+        position: relative;
+        width: 100%;
+        min-height: 200px;
+        height: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    
+    .slider-card {
+        flex: 0 0 auto;
+        max-width: 150px;
+        height: 100%;
+        margin-right: 20px;
+        display: flex; 
+    }
+    
+    .slider-card-img {
+        width: auto;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 20px;
+        margin-right: 20px; 
+        margin-left: 20px;
+    }
+    
+    .slider-group::-webkit-scrollbar {
+        display: none;
+    }
+    
+
+  .acad {
+    margin-top: 100px   ;
+    text-align: center;
+  }
+  }
+  
+  
